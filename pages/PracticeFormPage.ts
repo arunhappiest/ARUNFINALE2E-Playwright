@@ -1,6 +1,7 @@
 import { Page, Locator } from '@playwright/test';
 
 //My Class
+//Feature to Main branch Github test
 export class PracticeFormPage {
   private readonly page: Page;
  private readonly firstNameInput: Locator;
@@ -57,6 +58,7 @@ export class PracticeFormPage {
     await this.currentAddressInput.fill(details.address);
 
     // State & City dropdowns
+    //Feature to main branch github test
     await this.stateDropdown.click();
     await this.page.getByText(details.state, { exact: true }).click();
     await this.cityDropdown.click();
