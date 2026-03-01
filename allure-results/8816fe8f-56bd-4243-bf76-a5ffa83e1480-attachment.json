@@ -1,0 +1,11 @@
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "gender": "Male",
+  "mobile": "1234567890",
+  "subject": "Maths",
+  "address": "123 Playwright St, Delhi",
+  "state": "NCR",
+  "city": "Delhi"
+}

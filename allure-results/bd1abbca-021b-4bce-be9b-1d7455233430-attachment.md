@@ -1,0 +1,145 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: https://demoqa.com
+      - img [ref=e5]
+  - generic [ref=e8]:
+    - generic [ref=e11]:
+      - generic [ref=e14] [cursor=pointer]:
+        - generic [ref=e15]:
+          - img [ref=e17]
+          - text: Elements
+        - img [ref=e22]
+      - generic [ref=e24]:
+        - generic [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]:
+            - img [ref=e29]
+            - text: Forms
+          - img [ref=e35]
+        - list [ref=e38]:
+          - listitem [ref=e39] [cursor=pointer]:
+            - link "Practice Form" [ref=e40]:
+              - /url: /automation-practice-form
+              - img [ref=e41]
+              - text: Practice Form
+      - generic [ref=e45] [cursor=pointer]:
+        - generic [ref=e46]:
+          - img [ref=e48]
+          - text: Alerts, Frame & Windows
+        - img [ref=e53]
+      - generic [ref=e57] [cursor=pointer]:
+        - generic [ref=e58]:
+          - img [ref=e60]
+          - text: Widgets
+        - img [ref=e66]
+      - generic [ref=e70] [cursor=pointer]:
+        - generic [ref=e71]:
+          - img [ref=e73]
+          - text: Interactions
+        - img [ref=e78]
+      - generic [ref=e82] [cursor=pointer]:
+        - generic [ref=e83]:
+          - img [ref=e85]
+          - text: Book Store Application
+        - img [ref=e90]
+    - generic [ref=e93]:
+      - heading "Practice Form" [level=1] [ref=e94]
+      - heading "Student Registration Form" [level=5] [ref=e95]
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - generic [ref=e99]: Name
+          - textbox "First Name" [ref=e101]
+          - textbox "Last Name" [ref=e103]
+        - generic [ref=e104]:
+          - generic [ref=e106]: Email
+          - textbox "name@example.com" [ref=e108]
+        - generic [ref=e109]:
+          - generic [ref=e110]: Gender
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - radio "Male" [ref=e113]
+              - generic [ref=e114]: Male
+            - generic [ref=e115]:
+              - radio "Female" [ref=e116]
+              - generic [ref=e117]: Female
+            - generic [ref=e118]:
+              - radio "Other" [ref=e119]
+              - generic [ref=e120]: Other
+        - generic [ref=e121]:
+          - generic [ref=e123]: Mobile(10 Digits)
+          - textbox "Mobile Number" [ref=e125]
+        - generic [ref=e126]:
+          - generic [ref=e128]: Date of Birth
+          - textbox [ref=e132]: 27 Feb 2026
+        - generic [ref=e133]:
+          - generic [ref=e135]: Subjects
+          - generic [ref=e137]:
+            - log [ref=e139]
+            - combobox [ref=e143]
+        - generic [ref=e146]:
+          - generic [ref=e148]: Hobbies
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - checkbox "Sports" [ref=e151]
+              - generic [ref=e152]: Sports
+            - generic [ref=e153]:
+              - checkbox "Reading" [ref=e154]
+              - generic [ref=e155]: Reading
+            - generic [ref=e156]:
+              - checkbox "Music" [ref=e157]
+              - generic [ref=e158]: Music
+        - generic [ref=e159]:
+          - generic [ref=e161]: Picture
+          - button "Choose File" [ref=e163] [cursor=pointer]
+        - generic [ref=e164]:
+          - generic [ref=e166]: Current Address
+          - textbox "Current Address" [ref=e168]
+        - generic [ref=e169]:
+          - generic [ref=e171]: State and City
+          - generic [ref=e173]:
+            - log [ref=e175]
+            - generic [ref=e176]:
+              - generic [ref=e177]:
+                - generic [ref=e178]: Select State
+                - combobox [ref=e180]
+              - img [ref=e184]
+          - generic [ref=e186]:
+            - generic:
+              - log
+              - generic:
+                - generic:
+                  - generic: Select City
+                - generic:
+                  - generic:
+                    - img
+        - button "Submit" [ref=e189] [cursor=pointer]
+    - iframe [ref=e198]:
+      - generic [active] [ref=f12e1]:
+        - generic [ref=f12e6]:
+          - generic [ref=f12e7]:
+            - generic "LIC India" [ref=f12e9]:
+              - link "Life Insurance Coperation" [ref=f12e10] [cursor=pointer]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CGhvW1G6haZeNOM23g8UPpuqUqQqt0dKahQGj-MKupxWwkB8QASDG-9Z5YOWCgIC0DqABmve01SrIAQGpAnU16RvtnEc-4AIAqAMByAPLBKoElwJP0AvQMT4c91-r0-1JMzi-vJdRFjjuq6qCyf42oStkWe7xD5f0nEf_5eIQqshi-sy6xzCRFpsn1_p89LHyM854gQomTGWazdUxWjx6CUa0sEyekh3a_Znl4UAbP5VzHmsOHAXjoyslZk2vptKRtzOcfGDaq51wBEK7eW4mynGYgkJO2Lyw5wXTQjZ6WTwu9kPcXYRa6JGgCv-z3w7eACW99pKJy17JcoFABzocWM-6hJ5BqjiXW2cA4S67YQJPyq2-RoipJXiDp98JFXvuc8atzyZ-21m-BomcsXWe3OB6r257odNk8EH8RGhmba9i7mlD7l__EhO9EEGD9IibMZjR0_vdiYLoab3_GFwqrqRTrjLckF8ylVHABMCJiYToBeAEAYgF2p2J2VeAB5qvhbUFqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnQEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYy--Xq7j5kgPyCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKxCaA_Krn19ELLgAoDmAsByAsBogwLKgYKBNbasQKQAQGqDQJJTsgNAeINEwifoJiruPmSAxXN26ACHSY1JaXqDRMIv_mYq7j5kgMVzdugAh0mNSWl8A0CiA7___________8B2BMKiBQC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNjE2ODU3NjUwNboXAjgBqhgXCQAAAAAg1fZAEgo2MTY4NTc2NTA1GAGyGA8KBM7MvgMSAqtSGAEiAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIl8ehq7j5kgMVzdugAh0mNSWlEAEYASAAEgJhSvD_BwE&num=1&cid=CAQSrAEA56J1eVgtusISxw7w4WjqMWtgtDuX1mFQTAGgCKxQKv9gbgOVR1cK6y67DASYI87wNTrmGUFpeTTVD72S7Qpwv_26Vxz57ESdVz7_rXbwF0xFRvMrwSSfOKzScjtH2APvJeN7iNkNNLyEGKAuNYNBw_OlKGUfZpoN9Zc_R1ciQW_xnVhu8QD9qeF4rNl5GIxwSl5ANZ9G0gKPcjv9Tscru5cmhspuamj8MOx6GAE&sig=AOD64_1Kv4HVql39gLp-pBO_CycxN7oPuA&client=ca-pub-4573231550355221&rf=1&nb=0&adurl=https://licindia.in/web/guest/lic-s-bima-kavach%3Futm_source%3DDemand_Gen%26utm_medium%3DBanner%26utm_campaign%3DPD_LIC_Google_Bima_Kavach_Desktop_Feb_March_2026%26gad_source%3D5%26gad_campaignid%3D23540682458%26gclid%3DEAIaIQobChMIl8ehq7j5kgMVzdugAh0mNSWlEAEYASAAEgJhSvD_BwE
+                - text: Life Insurance
+                - text: Coperation
+            - generic [ref=f12e11]:
+              - link "Flexible premium payment choices - Single, Regular, or Limited (5, 10, or 15 years)" [ref=f12e13] [cursor=pointer]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CGhvW1G6haZeNOM23g8UPpuqUqQqt0dKahQGj-MKupxWwkB8QASDG-9Z5YOWCgIC0DqABmve01SrIAQGpAnU16RvtnEc-4AIAqAMByAPLBKoElwJP0AvQMT4c91-r0-1JMzi-vJdRFjjuq6qCyf42oStkWe7xD5f0nEf_5eIQqshi-sy6xzCRFpsn1_p89LHyM854gQomTGWazdUxWjx6CUa0sEyekh3a_Znl4UAbP5VzHmsOHAXjoyslZk2vptKRtzOcfGDaq51wBEK7eW4mynGYgkJO2Lyw5wXTQjZ6WTwu9kPcXYRa6JGgCv-z3w7eACW99pKJy17JcoFABzocWM-6hJ5BqjiXW2cA4S67YQJPyq2-RoipJXiDp98JFXvuc8atzyZ-21m-BomcsXWe3OB6r257odNk8EH8RGhmba9i7mlD7l__EhO9EEGD9IibMZjR0_vdiYLoab3_GFwqrqRTrjLckF8ylVHABMCJiYToBeAEAYgF2p2J2VeAB5qvhbUFqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnQEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYy--Xq7j5kgPyCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKxCaA_Krn19ELLgAoDmAsByAsBogwLKgYKBNbasQKQAQGqDQJJTsgNAeINEwifoJiruPmSAxXN26ACHSY1JaXqDRMIv_mYq7j5kgMVzdugAh0mNSWl8A0CiA7___________8B2BMKiBQC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNjE2ODU3NjUwNboXAjgBqhgXCQAAAAAg1fZAEgo2MTY4NTc2NTA1GAGyGA8KBM7MvgMSAqtSGAEiAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIl8ehq7j5kgMVzdugAh0mNSWlEAEYASAAEgJhSvD_BwE&num=1&cid=CAQSrAEA56J1eVgtusISxw7w4WjqMWtgtDuX1mFQTAGgCKxQKv9gbgOVR1cK6y67DASYI87wNTrmGUFpeTTVD72S7Qpwv_26Vxz57ESdVz7_rXbwF0xFRvMrwSSfOKzScjtH2APvJeN7iNkNNLyEGKAuNYNBw_OlKGUfZpoN9Zc_R1ciQW_xnVhu8QD9qeF4rNl5GIxwSl5ANZ9G0gKPcjv9Tscru5cmhspuamj8MOx6GAE&sig=AOD64_1Kv4HVql39gLp-pBO_CycxN7oPuA&client=ca-pub-4573231550355221&rf=1&nb=7&adurl=https://licindia.in/web/guest/lic-s-bima-kavach%3Futm_source%3DDemand_Gen%26utm_medium%3DBanner%26utm_campaign%3DPD_LIC_Google_Bima_Kavach_Desktop_Feb_March_2026%26gad_source%3D5%26gad_campaignid%3D23540682458%26gclid%3DEAIaIQobChMIl8ehq7j5kgMVzdugAh0mNSWlEAEYASAAEgJhSvD_BwE
+                - text: Flexible premium payment
+                - text: choices - Single, Regular, or
+                - text: Limited (5, 10, or 15 years)
+              - link [ref=f12e14] [cursor=pointer]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CGhvW1G6haZeNOM23g8UPpuqUqQqt0dKahQGj-MKupxWwkB8QASDG-9Z5YOWCgIC0DqABmve01SrIAQGpAnU16RvtnEc-4AIAqAMByAPLBKoElwJP0AvQMT4c91-r0-1JMzi-vJdRFjjuq6qCyf42oStkWe7xD5f0nEf_5eIQqshi-sy6xzCRFpsn1_p89LHyM854gQomTGWazdUxWjx6CUa0sEyekh3a_Znl4UAbP5VzHmsOHAXjoyslZk2vptKRtzOcfGDaq51wBEK7eW4mynGYgkJO2Lyw5wXTQjZ6WTwu9kPcXYRa6JGgCv-z3w7eACW99pKJy17JcoFABzocWM-6hJ5BqjiXW2cA4S67YQJPyq2-RoipJXiDp98JFXvuc8atzyZ-21m-BomcsXWe3OB6r257odNk8EH8RGhmba9i7mlD7l__EhO9EEGD9IibMZjR0_vdiYLoab3_GFwqrqRTrjLckF8ylVHABMCJiYToBeAEAYgF2p2J2VeAB5qvhbUFqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnQEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYy--Xq7j5kgPyCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKxCaA_Krn19ELLgAoDmAsByAsBogwLKgYKBNbasQKQAQGqDQJJTsgNAeINEwifoJiruPmSAxXN26ACHSY1JaXqDRMIv_mYq7j5kgMVzdugAh0mNSWl8A0CiA7___________8B2BMKiBQC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNjE2ODU3NjUwNboXAjgBqhgXCQAAAAAg1fZAEgo2MTY4NTc2NTA1GAGyGA8KBM7MvgMSAqtSGAEiAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIl8ehq7j5kgMVzdugAh0mNSWlEAEYASAAEgJhSvD_BwE&num=1&cid=CAQSrAEA56J1eVgtusISxw7w4WjqMWtgtDuX1mFQTAGgCKxQKv9gbgOVR1cK6y67DASYI87wNTrmGUFpeTTVD72S7Qpwv_26Vxz57ESdVz7_rXbwF0xFRvMrwSSfOKzScjtH2APvJeN7iNkNNLyEGKAuNYNBw_OlKGUfZpoN9Zc_R1ciQW_xnVhu8QD9qeF4rNl5GIxwSl5ANZ9G0gKPcjv9Tscru5cmhspuamj8MOx6GAE&sig=AOD64_1Kv4HVql39gLp-pBO_CycxN7oPuA&client=ca-pub-4573231550355221&rf=1&nb=8&adurl=https://licindia.in/web/guest/lic-s-bima-kavach%3Futm_source%3DDemand_Gen%26utm_medium%3DBanner%26utm_campaign%3DPD_LIC_Google_Bima_Kavach_Desktop_Feb_March_2026%26gad_source%3D5%26gad_campaignid%3D23540682458%26gclid%3DEAIaIQobChMIl8ehq7j5kgMVzdugAh0mNSWlEAEYASAAEgJhSvD_BwE
+                - img [ref=f12e15]
+          - generic "LIC India" [ref=f12e17]:
+            - link "LIC India" [ref=f12e18] [cursor=pointer]:
+              - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CGhvW1G6haZeNOM23g8UPpuqUqQqt0dKahQGj-MKupxWwkB8QASDG-9Z5YOWCgIC0DqABmve01SrIAQGpAnU16RvtnEc-4AIAqAMByAPLBKoElwJP0AvQMT4c91-r0-1JMzi-vJdRFjjuq6qCyf42oStkWe7xD5f0nEf_5eIQqshi-sy6xzCRFpsn1_p89LHyM854gQomTGWazdUxWjx6CUa0sEyekh3a_Znl4UAbP5VzHmsOHAXjoyslZk2vptKRtzOcfGDaq51wBEK7eW4mynGYgkJO2Lyw5wXTQjZ6WTwu9kPcXYRa6JGgCv-z3w7eACW99pKJy17JcoFABzocWM-6hJ5BqjiXW2cA4S67YQJPyq2-RoipJXiDp98JFXvuc8atzyZ-21m-BomcsXWe3OB6r257odNk8EH8RGhmba9i7mlD7l__EhO9EEGD9IibMZjR0_vdiYLoab3_GFwqrqRTrjLckF8ylVHABMCJiYToBeAEAYgF2p2J2VeAB5qvhbUFqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnQEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYy--Xq7j5kgPyCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKxCaA_Krn19ELLgAoDmAsByAsBogwLKgYKBNbasQKQAQGqDQJJTsgNAeINEwifoJiruPmSAxXN26ACHSY1JaXqDRMIv_mYq7j5kgMVzdugAh0mNSWl8A0CiA7___________8B2BMKiBQC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNjE2ODU3NjUwNboXAjgBqhgXCQAAAAAg1fZAEgo2MTY4NTc2NTA1GAGyGA8KBM7MvgMSAqtSGAEiAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIl8ehq7j5kgMVzdugAh0mNSWlEAEYASAAEgJhSvD_BwE&num=1&cid=CAQSrAEA56J1eVgtusISxw7w4WjqMWtgtDuX1mFQTAGgCKxQKv9gbgOVR1cK6y67DASYI87wNTrmGUFpeTTVD72S7Qpwv_26Vxz57ESdVz7_rXbwF0xFRvMrwSSfOKzScjtH2APvJeN7iNkNNLyEGKAuNYNBw_OlKGUfZpoN9Zc_R1ciQW_xnVhu8QD9qeF4rNl5GIxwSl5ANZ9G0gKPcjv9Tscru5cmhspuamj8MOx6GAE&sig=AOD64_1Kv4HVql39gLp-pBO_CycxN7oPuA&client=ca-pub-4573231550355221&rf=1&nb=1&adurl=https://licindia.in/web/guest/lic-s-bima-kavach%3Futm_source%3DDemand_Gen%26utm_medium%3DBanner%26utm_campaign%3DPD_LIC_Google_Bima_Kavach_Desktop_Feb_March_2026%26gad_source%3D5%26gad_campaignid%3D23540682458%26gclid%3DEAIaIQobChMIl8ehq7j5kgMVzdugAh0mNSWlEAEYASAAEgJhSvD_BwE
+        - img [ref=f12e22] [cursor=pointer]
+        - button [ref=f12e24] [cursor=pointer]:
+          - img [ref=f12e25]
+  - contentinfo [ref=e199]:
+    - generic [ref=e200]: © 2013-2026 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

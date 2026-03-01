@@ -1,0 +1,4 @@
+firstName,lastName,email,gender,mobile,subject,address,state,city
+John,Doe,john.doe@example.com,Male,1234567890,Maths,"123 Playwright St, Delhi",NCR,Delhi
+Jane,Smith,jane.smith@test.com,Female,9876543210,Arts,"456 Automation Ave, Mumbai",Haryana,Karnal
+Alex,Vance,alex.v@demo.com,Other,5556667777,English,"789 Cypress Rd, Pune",Rajasthan,Jaipur
