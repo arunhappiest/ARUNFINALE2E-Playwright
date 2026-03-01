@@ -1,5 +1,6 @@
 import { Page, Locator } from '@playwright/test';
 
+//My Class
 export class PracticeFormPage {
   private readonly page: Page;
  private readonly firstNameInput: Locator;
