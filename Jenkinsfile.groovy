@@ -1,25 +1,25 @@
 pipeline {
     agent any
     tools {
-        nodejs 'Node20'
+        nodejs 'Node20' 
     }
     stages {
         stage('Install') {
             steps {
-                sh 'npm ci'
-                sh 'npx playwright install --with-deps'
+                // Use 'bat' for Windows instead of 'sh'
+                bat 'npm ci'
+                bat 'npx playwright install --with-deps'
             }
         }
         stage('Test') {
             steps {
-                // Playwright will now drop data into 'allure-results'
-                sh 'npx playwright test'
+                // Use 'bat' here as well
+                bat 'npx playwright test'
             }
         }
     }
     post {
         always {
-            // Generate and archive the Allure Report
             script {
                 allure includeProperties: false, 
                        jdk: '', 
